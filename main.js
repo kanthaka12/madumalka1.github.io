@@ -18,8 +18,8 @@ const downloadCv = document.getElementById("download-cv");
 
 downloadCv.addEventListener("click", (e) => {
   const aElement = document.createElement("a");
-  aElement.setAttribute("download", "madumalkafinalcv.pdf");
-  aElement.setAttribute("href", "madumalkafinalcv.pdf"); // If the file is in the 'assets' folder
+  aElement.setAttribute("download", "kanthakaInternshipCV.pdf");
+  aElement.setAttribute("href", "kanthakaInternshipCV.pdf"); // If the file is in the 'assets' folder
 
   
   aElement.click();
